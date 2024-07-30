@@ -1,0 +1,347 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+}
+.page-wrapper {
+
+
+}
+.nav-wrapper {
+    background: #012d63;
+}
+.container {
+    margin-left: 166px;
+    margin-right: 166px;
+}
+.nav {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+.nav-logo {
+
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+   
+}
+.nav-list {
+display: flex;
+column-gap:  28px; 
+
+}
+.nav-list-page {
+    font-weight: 300;
+    font-size: 24px;
+    color: #c7c7c7;
+    transition: 0.4s;
+    list-style: none;
+}
+.nav-list-page:hover{
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+}
+.nav-languages {
+    display: flex;
+    column-gap: 14px;
+
+}
+
+.nav-languages-check {
+font-weight: 300;
+font-size: 24px;
+color: #dcdcdc;
+cursor: pointer;
+transition: all .3s;
+}
+
+.nav-languages-check:hover{
+    font-weight: 400;
+    color: #fff;
+}
+
+.header-wrapper {
+background: url(/header-background.png) no-repeat center/cover;
+}
+.container {
+}
+.header {
+}
+.header-logo {
+    width: 160px;
+    height: 120px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top:184px;
+
+    
+}
+.header-name-logo {
+font-family: PT Serif;
+font-size: 48px;
+font-weight: 400;
+line-height: 63.6px;
+text-align: left;
+color: #fff;
+
+
+}
+.header-name {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 144px;
+font-weight: 400;
+line-height: 191.95px;
+text-align: left;
+color: #fff;
+
+    
+}
+.header-subname {
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+font-size: 72px;
+color: #fff;
+line-height: 95.98px;
+text-align: left;
+
+}
+.header-text {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+line-height: 21.09px;
+text-align: left;
+color: #fff;
+width: 508px;
+height: 84px;
+gap: 0px;
+opacity: 95%;
+padding-top: 23px;
+
+
+
+}
+.header-button {
+font-family: "Roboto", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 24px;
+line-height: 28.13px;
+text-align: center;
+background-color:  #8E32C6;
+border-radius: 10px;
+width: 254px;
+height: 67px;
+color: #fff;
+margin-top:43px ;
+
+
+}
+
+.quality-wrapper {
+background: url(/quality-background.png) no-repeat center/cover ;
+padding-top: 105px;
+padding-bottom: 105px;
+}
+.container {
+}
+.quality {
+    display: flex;
+    justify-content: space-between;
+    border: #8E32C6 solid 5px;
+    padding: 50px 25px;
+}
+.quality-card {
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+
+
+}
+.quality-card:not(:last-child)::after{
+position:absolute;
+content:"";
+height: 346px;
+width: 2px;
+background: #fff;
+top: -30px;
+right: -50%;
+
+
+}
+
+.quality-title {
+color: #fff;
+font-size: 36px;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+width: 160px;
+text-align: center;
+}
+.quality-card-photo {
+}
+
+.reviews-wrapper {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    background: url(/reviews-background.png) no-repeat center/cover;
+}
+.container {
+}
+.reviews {
+}
+.reviews-main-text {
+    margin-top: 4px;
+color: white;
+font-size: 48px;
+text-align: center;
+margin-bottom: 24px;
+font-family: "Playfair Display", serif;
+font-optical-sizing: auto;
+font-weight: 400;
+font-style: normal;
+}
+.reviews-card {
+    display: flex;
+justify-content: space-between;
+margin-bottom: 4px;
+}
+
+.reviews-card-item:first-child{
+box-shadow: 0 30px 0 -13px #533978, 0 14px 0 -5px #7b54b2;
+background: linear-gradient(135deg, #00e5e6 7.29%, #00a8f7 26.04%, #9a76f9 62.5%, #cc5ec2 100%);
+
+}
+
+.reviews-card-item:nth-child(2){
+box-shadow: 0 30px 0 -13px #61337c, 0 14px 0 -5px #9159b1;background: linear-gradient(135deg, #ff68b4 0%, #ff45e1 26.04%, #ce3aff 62.84%, #8961ff 100%);
+
+}
+.reviews-card-item:nth-child(3){
+box-shadow: 0 30px 0 -13px #732f26, 0 14px 0 -5px #b95a4c;
+background: linear-gradient(135deg, #ffe128 0%, #ff9b5c 30.21%, #ff8381 63.29%, #ff5489 100%);
+
+}
+.reviews-card-item {
+    width: 255px;
+    border-radius: 15px;
+    padding: 50px 14px 30px 14px;
+    opacity: 0px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.reviews-text {
+}
+.reviews-date {
+    font-size: 14px;
+    color: #d8d8d8;
+    margin-bottom: 48px;
+}
+.reviews-user {
+    position: relative;
+}
+.reviews-image {
+}
+.reviews-name {
+    font-size: 14px;
+    font-weight: 400;
+    position: absolute;
+    top: 1px;
+    left: 36px;
+}
+.reviews-user-date {
+    font-size: 12px;
+    color: #d8d8d8;
+    position: absolute;
+    top: 18px;
+    left: 35px;
+}
+
+.order-wrapper {
+    background: url(/order-background.png) no-repeat center/cover;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.order {
+}
+.order-title {
+    text-align: center;
+    color: white;
+    font-size: 48px;
+    margin-bottom: 33px;
+    font-family: "Playfair Display", serif;
+}
+.order-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.order-form input{
+    padding: 14px 24px;
+    border-radius: 50px;
+    margin-bottom: 20px;
+    border: none;
+    width: 580px;
+}
+input.order-form-email{
+    width: 690px;
+}
+.order-form-country {
+}
+.order-form-city {
+}
+.order-form-adress {
+}
+.order-form-button {
+}
+.order-form .header-button{
+    margin: 0px;
+    border: none;
+}
+.footer-wrapper{
+    background: #021635;
+}
+.footer-question{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.footer-question-item-list{
+    font-weight: 400;
+font-size: 24px;
+color: #fff;
+list-style: none;
+}
+.footer-bottom .footer-question-item-list{
+    font-weight: 400;
+font-size: 18px;
+color: #fff;
+}
+.footer-bottom .header-name-logo{
+    font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
